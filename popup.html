@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>AI Interview Assistant</title>
+
+    <link
+        rel="stylesheet"
+        href="popup.css"
+    >
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- ======================================================
+         HEADER
+    ======================================================= -->
+
+    <header class="header">
+
+        <div class="logo">
+
+            <div class="logo-icon">
+                AI
+            </div>
+
+            <div class="logo-text">
+
+                <h1>
+                    Interview AI
+                </h1>
+
+                <p>
+                    Interview Preparation Assistant
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <button
+            id="settingsBtn"
+            class="icon-button"
+            title="Settings"
+        >
+            ⚙
+        </button>
+
+    </header>
+
+
+    <!-- ======================================================
+         STATUS
+    ======================================================= -->
+
+    <div class="status-card">
+
+        <div
+            id="statusDot"
+            class="status-dot"
+        ></div>
+
+        <div>
+
+            <strong id="statusTitle">
+                Ready
+            </strong>
+
+            <span id="statusText">
+                Analyze a job page...
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <!-- ======================================================
+         JOB DESCRIPTION
+    ======================================================= -->
+
+    <section class="section">
+
+        <h2>
+            Job Description
+        </h2>
+
+
+        <p class="description">
+
+            Analyze the current webpage and get
+            structured AI-powered interview preparation.
+
+        </p>
+
+
+        <button
+            id="extractBtn"
+            class="primary-btn"
+        >
+            Analyze Current Page
+        </button>
+
+    </section>
+
+
+    <!-- ======================================================
+         AI RESULT
+    ======================================================= -->
+
+    <section
+        id="resultSection"
+        class="section result-section hidden"
+    >
+
+        <div class="result-header">
+
+            <h2>
+                AI Result
+            </h2>
+
+
+            <button
+                id="clearBtn"
+                class="clear-btn"
+            >
+                Clear
+            </button>
+
+        </div>
+
+
+        <div id="result">
+
+            <!-- Structured result will appear here -->
+
+        </div>
+
+    </section>
+
+
+    <!-- ======================================================
+         FOOTER
+    ======================================================= -->
+
+    <footer>
+
+        <span>
+            AI Interview Assistant
+        </span>
+
+        <span>
+            v1.0.0
+        </span>
+
+    </footer>
+
+</div>
+
+
+<script src="popup.js"></script>
+
+</body>
+
+</html>
